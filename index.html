@@ -10,17 +10,17 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">Ontora</div>
+            <a href="index.html" class="logo">Ontora</a>
             <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#use-cases">Use Cases</a></li>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#demo">Demo</a></li>
-                <li><a href="#technical">For Technical Teams</a></li>
-                <li><a href="#why-ontora">Why Ontora</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="use-cases.html">Use Cases</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="technical.html">For Technical Teams</a></li>
+                <li><a href="why-ontora.html">Why Ontora</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-            <button class="cta-button">Book a Demo</button>
+            <a href="contact.html" class="cta-button">Book a Demo</a>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -30,18 +30,18 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section class="hero">
         <div class="hero-content">
-            <h1 class="hero-title animate-fade-in">AI agents that interview every employee and answer your most critical questions within hours.</h1>
-            <div class="hero-question animate-fade-in-delay">
+            <span class="hero-badge animate-fade-in">Launch YC: Ontora - Read your company like a book</span>
+            <h1 class="hero-title animate-fade-in-delay">AI agents that interview every employee and answer your most critical questions within hours.</h1>
+            <div class="hero-question animate-fade-in-delay-2">
                 <p>"How can I improve my sales team?"</p>
             </div>
-            <div class="hero-buttons animate-fade-in-delay-2">
-                <button class="btn-primary">Try Ontora</button>
-                <button class="btn-secondary">See how it works</button>
+            <div class="hero-buttons animate-fade-in-delay-3">
+                <a href="contact.html" class="btn-primary">Try Ontora</a>
+                <a href="how-it-works.html" class="btn-secondary">See how it works</a>
             </div>
-            <div class="hero-subtitle animate-fade-in-delay-3">
-                <p>Launch YC: Ontora - Read your company like a book</p>
+            <div class="hero-subtitle animate-fade-in-delay-4">
                 <h2>What if you could ask your company anything?</h2>
             </div>
         </div>
@@ -61,315 +61,50 @@
         </div>
     </section>
 
-    <!-- Use Cases Section -->
-    <section id="use-cases" class="use-cases">
+    <!-- Features Preview Section -->
+    <section class="features-preview">
         <div class="section-header">
-            <h3 class="section-tag">USE CASES</h3>
-            <h2 class="section-title">Everything you need to understand any organization</h2>
+            <h3 class="section-tag">PLATFORM OVERVIEW</h3>
+            <h2 class="section-title">Transform how you understand your organization</h2>
         </div>
         
-        <div class="use-cases-grid">
-            <div class="use-case-card fade-in-on-scroll">
+        <div class="features-grid">
+            <a href="use-cases.html" class="feature-card fade-in-on-scroll">
                 <div class="card-icon">📊</div>
-                <h3>Operational knowledge base</h3>
-                <p>Ontora builds a living picture of how your company actually operates across people, systems, and workflows.</p>
-            </div>
+                <h3>Use Cases</h3>
+                <p>Discover how Ontora builds operational knowledge and reveals insights</p>
+                <span class="arrow">→</span>
+            </a>
             
-            <div class="use-case-card fade-in-on-scroll">
-                <div class="card-icon">🗺️</div>
-                <h3>Themed insights and process maps</h3>
-                <p>See recurring bottlenecks, broken handoffs, hidden dependencies, and where execution keeps slowing down.</p>
-            </div>
+            <a href="how-it-works.html" class="feature-card fade-in-on-scroll">
+                <div class="card-icon">⚙️</div>
+                <h3>How It Works</h3>
+                <p>Three simple steps from deployment to actionable clarity</p>
+                <span class="arrow">→</span>
+            </a>
             
-            <div class="use-case-card fade-in-on-scroll">
-                <div class="card-icon">💬</div>
-                <h3>AI-led stakeholder interviews</h3>
-                <p>Ontora has real conversations with employees, follows up intelligently, and surfaces what people actually do and where they get stuck.</p>
-            </div>
+            <a href="technical.html" class="feature-card fade-in-on-scroll">
+                <div class="card-icon">🔧</div>
+                <h3>For Developers</h3>
+                <p>Build custom agents and integrate with your existing tools</p>
+                <span class="arrow">→</span>
+            </a>
             
-            <div class="use-case-card fade-in-on-scroll">
-                <div class="card-icon">🚀</div>
-                <h3>Automation roadmap with ROI</h3>
-                <p>Prioritize the workflows worth automating first, with clear reasoning and expected impact instead of vague AI theater.</p>
-            </div>
-        </div>
-        
-        <div class="cta-center">
-            <button class="btn-primary">Book a demo</button>
-        </div>
-    </section>
-
-    <!-- How It Works Section -->
-    <section id="how-it-works" class="how-it-works">
-        <div class="section-header">
-            <h3 class="section-tag">HOW IT WORKS</h3>
-            <h2 class="section-title">Three steps. From deployment to clarity.</h2>
-        </div>
-        
-        <div class="steps-container">
-            <!-- Step 1 -->
-            <div class="step fade-in-on-scroll">
-                <div class="step-number">Step 01</div>
-                <div class="step-content">
-                    <div class="step-text">
-                        <h3>Interview the organization</h3>
-                        <p>Ontora reaches employees in parallel, asks structured follow-up questions, and captures how work actually gets done across the company.</p>
-                    </div>
-                    <div class="step-visual">
-                        <div class="chat-interface">
-                            <div class="chat-header">
-                                <div class="avatar">O</div>
-                                <span>Ontora Agent</span>
-                                <span class="badge">Process Discovery</span>
-                            </div>
-                            <div class="chat-message agent-message">
-                                <p>Hi Rachel! Can you walk me through how you handle enterprise deal approvals?</p>
-                            </div>
-                            <div class="chat-message user-message">
-                                <div class="user-avatar">RT</div>
-                                <div>
-                                    <strong>Rachel Torres</strong>
-                                    <p>Sure! First I check the deal size, then route to the right approver...</p>
-                                </div>
-                            </div>
-                            <div class="chat-message agent-message">
-                                <p>What happens when a deal exceeds $500K?</p>
-                            </div>
-                            <div class="typing-indicator">
-                                <span>Rachel is typing</span>
-                                <div class="dots">
-                                    <span></span><span></span><span></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Step 2 -->
-            <div class="step fade-in-on-scroll">
-                <div class="step-number">Step 02</div>
-                <div class="step-content">
-                    <div class="step-text">
-                        <h3>Synthesize what matters</h3>
-                        <p>We connect interview data, systems, and company artifacts into a coherent view of bottlenecks, dependencies, and recurring patterns.</p>
-                    </div>
-                    <div class="step-visual">
-                        <div class="synthesis-grid">
-                            <div class="stat-card">
-                                <div class="stat-number counter" data-target="100">0</div>
-                                <div class="stat-label">Conversations in parallel</div>
-                            </div>
-                            <div class="stat-card">
-                                <div class="stat-number counter" data-target="45">0</div>
-                                <div class="stat-label">Minutes to a usable answer</div>
-                            </div>
-                            <div class="connection-visual">
-                                <div class="node node-1"></div>
-                                <div class="node node-2"></div>
-                                <div class="node node-3"></div>
-                                <div class="node node-4"></div>
-                                <svg class="connections">
-                                    <line x1="50" y1="50" x2="150" y2="50" />
-                                    <line x1="50" y1="50" x2="100" y2="100" />
-                                    <line x1="150" y1="50" x2="100" y2="100" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Step 3 -->
-            <div class="step fade-in-on-scroll">
-                <div class="step-number">Step 03</div>
-                <div class="step-content">
-                    <div class="step-text">
-                        <h3>Act on the answer</h3>
-                        <p>Leadership gets themed insights, process maps, and a prioritized roadmap for cost reduction, transformation, or automation work.</p>
-                    </div>
-                    <div class="step-visual">
-                        <div class="workflow-list">
-                            <div class="workflow-item completed">
-                                <div class="workflow-icon">✓</div>
-                                <div class="workflow-text">
-                                    <strong>Gap Analysis</strong>
-                                    <p>Check for missing information</p>
-                                </div>
-                            </div>
-                            <div class="workflow-item completed">
-                                <div class="workflow-icon">✓</div>
-                                <div class="workflow-text">
-                                    <strong>Data Integration</strong>
-                                    <p>Connecting additional sources</p>
-                                </div>
-                            </div>
-                            <div class="workflow-item in-progress">
-                                <div class="workflow-icon spinner">⟳</div>
-                                <div class="workflow-text">
-                                    <strong>Problem Identification</strong>
-                                    <p>Analyze operational issues</p>
-                                </div>
-                            </div>
-                            <div class="workflow-item pending">
-                                <div class="workflow-icon">○</div>
-                                <div class="workflow-text">
-                                    <strong>Solution Roadmap</strong>
-                                    <p>Generate implementation plan</p>
-                                </div>
-                                <span class="status-badge">Pending</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Testimonial -->
-        <div class="testimonial fade-in-on-scroll">
-            <blockquote>
-                "What used to take our operating team months of interviews and analysis, Ontora delivered in a single afternoon."
-            </blockquote>
-            <cite>Julien Kang, Strategy Manager at Vertiv</cite>
+            <a href="why-ontora.html" class="feature-card fade-in-on-scroll">
+                <div class="card-icon">⚡</div>
+                <h3>Why Ontora</h3>
+                <p>1000× faster insights at a fraction of traditional consulting costs</p>
+                <span class="arrow">→</span>
+            </a>
         </div>
     </section>
 
-    <!-- Demo Section -->
-    <section id="demo" class="demo-section">
-        <div class="section-header">
-            <h3 class="section-tag">PRODUCT DEMO</h3>
-            <h2 class="section-title">See Ontora in Action</h2>
-        </div>
-        
-        <div class="demo-container fade-in-on-scroll">
-            <div class="video-placeholder">
-                <div class="play-button">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M8 5v14l11-7z"/>
-                    </svg>
-                </div>
-                <div class="video-overlay">
-                    <p>Product Demo Video</p>
-                    <span>Click to watch</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Technical Teams Section -->
-    <section id="technical" class="technical-section">
-        <div class="section-header">
-            <h3 class="section-tag">FOR TECHNICAL TEAMS</h3>
-            <h2 class="section-title">Your context. Your AI tools.<br>The platform to build on both.</h2>
-        </div>
-        
-        <div class="technical-grid">
-            <div class="technical-card fade-in-on-scroll">
-                <div class="card-icon-large">🤖</div>
-                <h3>Spin up agents on demand</h3>
-                <p>Build task-specific agents over your company's context through MCP or the REST API. No re-indexing, no glue code.</p>
-                <div class="tech-badge">Microsoft Copilot Compatible</div>
-            </div>
-            
-            <div class="technical-card fade-in-on-scroll">
-                <div class="card-icon-large">🔗</div>
-                <h3>One context, every AI tool</h3>
-                <p>Expose Ontora's knowledge graph over MCP so Claude, Cursor, ChatGPT and your internal tools all share the same ground truth.</p>
-            </div>
-            
-            <div class="technical-card fade-in-on-scroll">
-                <div class="card-icon-large">⚡</div>
-                <h3>Employee-built micro-SaaS</h3>
-                <p>Turn one-off workflows into shippable internal apps. Anyone on the team can deploy a personal micro-solution on the same platform.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Ontora Section -->
-    <section id="why-ontora" class="why-ontora">
-        <div class="section-header">
-            <h3 class="section-tag">WHY ONTORA</h3>
-            <h2 class="section-title">Why leaders choose Ontora</h2>
-            <p class="section-subtitle">Accelerate value creation with AI-powered operational intelligence.</p>
-        </div>
-        
-        <div class="benefits-grid">
-            <div class="benefit-card fade-in-on-scroll">
-                <div class="benefit-metric">1000×</div>
-                <h3>Faster Insights</h3>
-                <p>Get operational intelligence in hours, not months. With AI, it's possible for the first time. No more waiting for lengthy consulting engagements.</p>
-            </div>
-            
-            <div class="benefit-card fade-in-on-scroll">
-                <div class="benefit-metric">10×</div>
-                <h3>Fraction of the Cost</h3>
-                <p>Comprehensive operational analysis at a fraction of traditional consulting fees with broader coverage across all employees, not just a sample.</p>
-                <div class="comparison">
-                    <div class="comparison-item">
-                        <span class="label">McKinsey-style</span>
-                        <span class="value">$500K+</span>
-                    </div>
-                    <div class="comparison-item highlight">
-                        <span class="label">Ontora</span>
-                        <span class="value">~$50K</span>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="benefit-card fade-in-on-scroll">
-                <div class="benefit-metric">100%</div>
-                <h3>Complete Visibility</h3>
-                <p>Real-time understanding of how portfolio companies actually operate. Identify bottlenecks, inefficiencies, and opportunities instantly.</p>
-                <div class="comparison">
-                    <div class="comparison-item">
-                        <span class="label">Sample Coverage</span>
-                        <span class="value">~10%</span>
-                    </div>
-                    <div class="comparison-item highlight">
-                        <span class="label">Ontora</span>
-                        <span class="value">100%</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact/Demo Request Section -->
-    <section id="contact" class="contact-section">
-        <div class="contact-container fade-in-on-scroll">
-            <h2>Request a Demo</h2>
-            <p>Work through your current operating model with our team and see where Ontora can act as your virtual COO.</p>
-            
-            <ul class="demo-benefits">
-                <li>AI readiness review across your people, process, and tooling.</li>
-                <li>HR and manager interview strategy to uncover recurring bottlenecks.</li>
-                <li>Leave with a concrete view of where process, cost, or automation opportunities sit.</li>
-            </ul>
-            
-            <form class="demo-form">
-                <div class="form-row">
-                    <input type="text" placeholder="First Name" required>
-                    <input type="text" placeholder="Last Name" required>
-                </div>
-                <div class="form-row">
-                    <input type="email" placeholder="Work Email" required>
-                    <input type="text" placeholder="Company" required>
-                </div>
-                <div class="form-row">
-                    <input type="text" placeholder="Job Title" required>
-                    <input type="tel" placeholder="Phone Number">
-                </div>
-                <textarea placeholder="Tell us about your organization and what you're looking to improve..." rows="4"></textarea>
-                <button type="submit" class="btn-primary">Request Demo</button>
-            </form>
-            
-            <div class="founder-card">
-                <div class="founder-avatar">LJ</div>
-                <div class="founder-info">
-                    <strong>Leon Johannes Iwanowitsch</strong>
-                    <p>Co-Founder & CEO of Ontora</p>
-                </div>
-            </div>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content fade-in-on-scroll">
+            <h2>Ready to read your company like a book?</h2>
+            <p>Get operational intelligence in hours, not months</p>
+            <a href="contact.html" class="btn-primary btn-large">Request a Demo</a>
         </div>
     </section>
 

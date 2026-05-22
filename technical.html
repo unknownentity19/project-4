@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Technical Teams - Ontora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Ontora</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="use-cases.html">Use Cases</a></li>
+                <li><a href="how-it-works.html">How It Works</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="technical.html" class="active">For Technical Teams</a></li>
+                <li><a href="why-ontora.html">Why Ontora</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="cta-button">Book a Demo</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h3 class="section-tag animate-fade-in">FOR TECHNICAL TEAMS</h3>
+            <h1 class="animate-fade-in-delay">Your context. Your AI tools.<br>The platform to build on both.</h1>
+            <p class="animate-fade-in-delay-2">Build custom agents and integrate Ontora's knowledge graph with your entire AI stack</p>
+        </div>
+    </section>
+
+    <!-- Technical Features -->
+    <section class="technical-section">
+        <div class="technical-grid-large">
+            <div class="technical-card-large fade-in-on-scroll">
+                <div class="card-icon-large">🤖</div>
+                <h2>Spin up agents on demand</h2>
+                <p class="lead">Build task-specific agents over your company's context through MCP or the REST API. No re-indexing, no glue code.</p>
+                
+                <div class="code-example">
+                    <div class="code-header">
+                        <span>example.py</span>
+                        <span class="tech-badge">Microsoft Copilot Compatible</span>
+                    </div>
+                    <pre><code>from ontora import Agent
+
+# Create a custom agent
+agent = Agent(
+    name="Sales Process Analyzer",
+    context="sales_operations",
+    capabilities=["interview", "analyze", "report"]
+)
+
+# Deploy and run
+insights = agent.run(
+    question="What slows down our deal approvals?"
+)
+
+print(insights.bottlenecks)
+# > ['Multi-level approvals', 'Manual data entry', ...]</code></pre>
+                </div>
+
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Zero setup time</strong>
+                            <p>Agents inherit your org's full context automatically</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Pre-trained capabilities</strong>
+                            <p>Interview, analyze, and report out of the box</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="technical-card-large fade-in-on-scroll">
+                <div class="card-icon-large">🔗</div>
+                <h2>One context, every AI tool</h2>
+                <p class="lead">Expose Ontora's knowledge graph over MCP so Claude, Cursor, ChatGPT and your internal tools all share the same ground truth.</p>
+                
+                <div class="integration-grid">
+                    <div class="integration-card">
+                        <span class="integration-icon">🧠</span>
+                        <strong>Claude</strong>
+                    </div>
+                    <div class="integration-card">
+                        <span class="integration-icon">💬</span>
+                        <strong>ChatGPT</strong>
+                    </div>
+                    <div class="integration-card">
+                        <span class="integration-icon">⌨️</span>
+                        <strong>Cursor</strong>
+                    </div>
+                    <div class="integration-card">
+                        <span class="integration-icon">🔷</span>
+                        <strong>Copilot</strong>
+                    </div>
+                    <div class="integration-card">
+                        <span class="integration-icon">⚡</span>
+                        <strong>Custom Tools</strong>
+                    </div>
+                    <div class="integration-card">
+                        <span class="integration-icon">🔧</span>
+                        <strong>Internal AI</strong>
+                    </div>
+                </div>
+
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Single source of truth</strong>
+                            <p>All AI tools access the same organizational knowledge</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Real-time updates</strong>
+                            <p>Knowledge graph stays current as your org evolves</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="technical-card-large fade-in-on-scroll">
+                <div class="card-icon-large">⚡</div>
+                <h2>Employee-built micro-SaaS</h2>
+                <p class="lead">Turn one-off workflows into shippable internal apps. Anyone on the team can deploy a personal micro-solution on the same platform.</p>
+                
+                <div class="workflow-example">
+                    <div class="workflow-step">
+                        <div class="workflow-number">1</div>
+                        <div class="workflow-content">
+                            <strong>Build with prompts</strong>
+                            <p>Describe your workflow in natural language</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="workflow-number">2</div>
+                        <div class="workflow-content">
+                            <strong>Test instantly</strong>
+                            <p>Run and iterate in your workspace</p>
+                        </div>
+                    </div>
+                    <div class="workflow-arrow">→</div>
+                    <div class="workflow-step">
+                        <div class="workflow-number">3</div>
+                        <div class="workflow-content">
+                            <strong>Deploy for team</strong>
+                            <p>Share as internal tool with one click</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>No code required</strong>
+                            <p>Build powerful automations with natural language</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="check">✓</span>
+                        <div>
+                            <strong>Secure by default</strong>
+                            <p>Inherits your org's permissions and security policies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Documentation -->
+    <section class="api-section">
+        <div class="section-header">
+            <h3 class="section-tag">DEVELOPER RESOURCES</h3>
+            <h2 class="section-title">Full API access</h2>
+        </div>
+
+        <div class="api-grid fade-in-on-scroll">
+            <div class="api-card">
+                <h3>REST API</h3>
+                <p>Complete programmatic access to Ontora's capabilities</p>
+                <a href="#" class="api-link">View Docs →</a>
+            </div>
+
+            <div class="api-card">
+                <h3>MCP Protocol</h3>
+                <p>Model Context Protocol support for AI tool integration</p>
+                <a href="#" class="api-link">Learn More →</a>
+            </div>
+
+            <div class="api-card">
+                <h3>Python SDK</h3>
+                <p>Native Python library for rapid development</p>
+                <a href="#" class="api-link">Install →</a>
+            </div>
+
+            <div class="api-card">
+                <h3>Webhooks</h3>
+                <p>Real-time notifications for events and updates</p>
+                <a href="#" class="api-link">Configure →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content fade-in-on-scroll">
+            <h2>Ready to build on Ontora?</h2>
+            <p>Talk to our team about technical integration and API access</p>
+            <a href="contact.html" class="btn-primary btn-large">Get API Access</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Ontora</h3>
+                <p>AI-powered organizational intelligence</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <a href="use-cases.html">Use Cases</a>
+                    <a href="how-it-works.html">How It Works</a>
+                    <a href="demo.html">Demo</a>
+                    <a href="technical.html">For Developers</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="why-ontora.html">Why Ontora</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ontora. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
