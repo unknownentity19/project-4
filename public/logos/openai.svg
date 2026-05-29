@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32" fill="none">
+  <g transform="translate(4 4)" stroke="#fafafa" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <circle cx="12" cy="12" r="11"/>
+    <path d="M5 9 L19 9 M5 15 L19 15 M9 5 L9 19 M15 5 L15 19"/>
+  </g>
+  <text x="36" y="21" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#fafafa">OpenAI</text>
+</svg>

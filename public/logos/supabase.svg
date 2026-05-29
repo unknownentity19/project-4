@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="32" viewBox="0 0 130 32" fill="none">
+  <g transform="translate(4 4)">
+    <path d="M14 2 L4 14 L12 14 L10 22 L20 10 L12 10 Z" fill="#fafafa"/>
+  </g>
+  <text x="32" y="21" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#fafafa">Supabase</text>
+</svg>

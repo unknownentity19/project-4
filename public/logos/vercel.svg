@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="32" viewBox="0 0 120 32" fill="none">
+  <g transform="translate(4 4)">
+    <path d="M12 2 L22 20 L2 20 Z" fill="#fafafa"/>
+  </g>
+  <text x="32" y="21" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#fafafa">Vercel</text>
+</svg>
